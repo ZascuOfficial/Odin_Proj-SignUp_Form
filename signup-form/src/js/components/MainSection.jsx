@@ -8,7 +8,7 @@ export default function MainSection() {
       <h2>Welcome</h2>
 
       <p>
-        Begin by filling in the necessary information int he form bellow and then click the button after it to create an official account for this community.
+        Begin by filling in the necessary information in the form bellow and then click the button after it to create an official account for this community.
       </p>
 
       <Form />
