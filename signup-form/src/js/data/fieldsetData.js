@@ -20,7 +20,8 @@ const fieldsetData = [
   {
     name: 'phone-number',
     label: 'Phone Number',
-    type: 'tel'
+    type: 'tel',
+    pattern: '[0-9]{3}-[0-9]{2}-[0-9]{3}'
   },
 
   {
