@@ -15,6 +15,8 @@ export default function Form() {
 
   return (
     <form action='#'>
+      <h3>Sign Up</h3>
+
       {fieldsetElements}
 
       <button type="submit">Create Account</button>
