@@ -17,7 +17,9 @@ export default function Form() {
     <form action='#'>
       <h3>Sign Up</h3>
 
-      {fieldsetElements}
+      <div className="fieldset-container">
+        {fieldsetElements}
+      </div>
 
       <button type="submit">Create Account</button>
     </form>
