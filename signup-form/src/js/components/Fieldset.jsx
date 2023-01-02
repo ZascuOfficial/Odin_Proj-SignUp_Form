@@ -10,6 +10,7 @@ export default function Fieldset(props) {
         name={props.name}
         id={props.name}
         pattern={props.pattern}
+        required
       />
     </fieldset>
   );
