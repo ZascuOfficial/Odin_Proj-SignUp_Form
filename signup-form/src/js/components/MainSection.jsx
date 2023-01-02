@@ -13,6 +13,8 @@ export default function MainSection() {
         </p>
       </div>
 
+      <h3>Sign Up</h3>
+
       <Form />
 
       <p className="login">
