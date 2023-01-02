@@ -4,7 +4,7 @@ import Form from './Form';
 
 export default function MainSection() {
   return (
-    <div className="main-section">
+    <main className="main-section">
       <h2>Welcome</h2>
 
       <p>
@@ -17,6 +17,6 @@ export default function MainSection() {
         Already own an account?
         <a href="#">Log in</a>
       </p>
-    </div>
+    </main>
   );
 }
