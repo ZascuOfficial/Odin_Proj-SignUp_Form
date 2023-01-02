@@ -21,7 +21,7 @@ export default function Form() {
         {fieldsetElements}
       </div>
 
-      <button type="submit">Create Account</button>
+      <button type="submit" className='submit-btn'>Create Account</button>
     </form>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Form from './Form';
+import Footer from './Footer';
 
 export default function MainSection() {
   return (
@@ -14,11 +15,7 @@ export default function MainSection() {
       </div>
 
       <Form />
-
-      <p className="login">
-        Already own an account?
-        <a href="#">Log in</a>
-      </p>
+      <Footer />
     </main>
   );
 }
